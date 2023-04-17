@@ -15,6 +15,7 @@ Here you can find <a href='https://www.bbc.com/future/article/20220225-how-hong-
 
 ## Data
 Each sample is composed of data from 25 cells, covering an area of 625 m2. Each cell represents an area of 5 x 5 m2 and has nine features. For a landslide sample, cell 13 is the location of landslide, and other cells are the neighboring areas. For a non-landslide sample, there is no recorded landslide occurrence within the sample area.
+
 ![image](https://user-images.githubusercontent.com/112837341/232376292-927b35ca-2465-40a2-8694-96fc7e8eadb0.png)
 
 

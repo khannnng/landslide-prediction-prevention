@@ -43,13 +43,9 @@ Hyperparameter tuning will be performed on a few selected models, taking into ac
 Given data imbalance, F1 will be the primary metric used to evaluate model performance, with AUC, precision, and recall also being considered. 
 
 ## Current progress
-Baseline model:
 - Logistic regression and RF has pretty good performance for its simplicity
 - Distance base models like SVM and KNN haven't performed as well as expected
-- Boosting model like ADA, XGB are the most promising
+- Boosting model like ADA, XGB are promising
+- CNN baseline models currently have the best performance.
 
-Tuned models:
-Finished tuning logistic regression and RF to eliminate multi collinearity, only significant variables are selected and reduce overfitting but not yet be able to improve the overall F1 score / AUC. Currently Logistic regression AUC = 0.87, RF AUC = 0.88.
 
-## Next step
-Proceed to work on boosting models and try with deep learning models.
